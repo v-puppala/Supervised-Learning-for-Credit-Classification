@@ -22,7 +22,8 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-      Overall the accuracy is high.
+      Overall the accuracy is high.  However, class 0/the healthy group ( has a notably higher precision and recall than for class 1/the high risk group. Moreover, the support for class 1 is 619 while the support for class 0 is significantly higher (18765). This along with the fact that class 0 has near perfect percision/recall while class 1 has Precision/recall values in the .80  and early 0.90 range, indicate that most of the incorrectly classified labels belong to class 0 and not class 1. Overall there are few mistakes made, relative to the overall number of classifications made, but of the mistakes made, is is apparent that the high risk group accuracy rate is lower relative to its support.
+      
 
 
 
