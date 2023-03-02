@@ -22,13 +22,13 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1:
   * Description of Model 1 Accuracy, Precision, and Recall scores.
-      Overall the accuracy is high.  However, class 0/the healthy group ( has a notably higher precision and recall than for class 1/the high risk group. Moreover, the support for class 1 is 619 while the support for class 0 is significantly higher (18765). This along with the fact that class 0 has near perfect percision/recall while class 1 has Precision/recall values in the .80  and early 0.90 range, indicate that most of the incorrectly classified labels belong to class 0 and not class 1. Overall there are few mistakes made, relative to the overall number of classifications made, but of the mistakes made, is is apparent that the high risk group accuracy rate is lower relative to its support.
+      Overall the accuracy is high.  However, class 0/the healthy group ( has a notably higher precision and recall than for class 1/the high risk group. Moreover, the support for class 1 is 619 while the support for class 0 is significantly higher (18765). This along with the fact that class 0 has near perfect percision/recall while class 1 has Precision/recall values in the .80  and early 0.90 range, indicate that most of the incorrectly classified labels belong to class 0 and not class 1. Overall there are few mistakes made, relative to the overall number of classifications made, but of the mistakes made, is is apparent that the high risk group accuracy rate is lower relative to its support.s 
       
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+  * Description of Model 2 Accuracy, Precision, and Recall scores
   
   Overall the accuracy and precision are high for both classes. However, the precision is still higher (.99) for class 0 than for class 1 (0.84).
 
@@ -36,6 +36,11 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
+Overall the resampled model is better, as it improves the recall for class 1. 
+
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+
+
+It depends on what we prioritize as more detrimental. Even with the improved model (model 2), we still encounter the problem where we wrongly classify  with high creditworthiness to the group less likely to pay their credit. 
 
 If you do not recommend any of the models, please justify your reasoning.
